@@ -12,6 +12,7 @@
   "dependencies": {
     "@tsconfig/node22": "^22.0.2",
     "pptxgenjs": "^4.0.1",
-    "tsx": "^4.20.5"
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   }
 }

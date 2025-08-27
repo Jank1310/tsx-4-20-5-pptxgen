@@ -1,5 +1,6 @@
-import pptxgen from 'pptxgenjs'
+import PptxGenJS from 'pptxgenjs'
 
-// works with tsx@4.20.4 even with @ts-expect-error
-// @ts-expect-error
-const ppt = new pptxgen()
+// fix needed because of bad types?
+const PptxGen = PptxGenJS as unknown as { new (): any };
+const ppt = new PptxGen()
+
